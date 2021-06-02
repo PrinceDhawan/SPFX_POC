@@ -14,7 +14,7 @@ export default class MyTasks extends React.Component<IMyTasksProps, {}> {
               <p className={ styles.subTitle }>Customize SharePoint experiences using Web Parts.</p>
               <p className={ styles.description }>{escape(this.props.description)}</p>
               <a href="https://aka.ms/spfx" className={ styles.button }>
-                <span className={ styles.label }>Learn more</span>
+                <span className={ styles.label }>Learn more from Mayuresh</span>
               </a>
             </div>
           </div>
