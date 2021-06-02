@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/myTasks/MyTasksWebPart.manifest.json"
         }
       ]
+    },
+    "recommended-articles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/recommendedArticles/RecommendedArticlesWebPart.js",
+          "manifest": "./src/webparts/recommendedArticles/RecommendedArticlesWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "MyTasksWebPartStrings": "lib/webparts/myTasks/loc/{locale}.js"
+    "MyTasksWebPartStrings": "lib/webparts/myTasks/loc/{locale}.js",
+    "RecommendedArticlesWebPartStrings": "lib/webparts/recommendedArticles/loc/{locale}.js"
   }
 }
